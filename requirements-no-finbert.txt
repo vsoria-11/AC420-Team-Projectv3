@@ -1,0 +1,12 @@
+# BACKUP: if the app will not deploy or runs out of memory with FinBERT, copy this file's contents
+# into requirements.txt. The app detects that FinBERT is missing and uses VADER automatically.
+streamlit>=1.50
+yfinance>=0.2.54
+pandas>=2.2
+numpy>=1.26
+statsmodels>=0.14
+scipy>=1.11
+plotly>=5.20
+matplotlib>=3.8
+arch>=7.0
+vaderSentiment>=3.3.2

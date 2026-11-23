@@ -1,0 +1,14 @@
+streamlit>=1.50
+yfinance>=0.2.54
+pandas>=2.2
+numpy>=1.26
+statsmodels>=0.14
+scipy>=1.11
+plotly>=5.20
+matplotlib>=3.8
+arch>=7.0
+vaderSentiment>=3.3.2
+# --- FinBERT (large). Remove these 3 lines if the deployment fails; the app then uses VADER automatically ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+transformers>=4.40
